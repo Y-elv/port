@@ -136,6 +136,7 @@ padding: 0 5px;
 
 }
 .button{
+    margin-top: 20px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -294,6 +295,7 @@ header.sticky{
 }
 .row img{
     width: 100%;
+
     border-radius: 8px;
     display: block;
     transition:transform 0.5;
@@ -319,21 +321,21 @@ header.sticky{
 .layer h5{
      font-size: 20px;
      font-weight: 600;
-     margin-bottom: 15px;
+     margin-bottom: 10px;
 }
 .layer p{
     color:#ccc;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.8;
 }
 .layer i{
     color:#ff4d05;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 20px;
     background: #fff;
    position: relative;
-    height: 60px;
-    width:  60px;
+    height: 40px;
+    width:  40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,6 +345,9 @@ header.sticky{
 }
 .row:hover img{
     transition: scale(1.1);
+}
+.row img{
+    height: 100%;
 }
 .row:hover .layer{
     height: 100%;
@@ -461,6 +466,8 @@ margin-top: 90px;
 .last-end{
     display: flex;
 }
+
+
 @media (max-width:1480px) {
     header{
         padding: 12px 2.5%;
