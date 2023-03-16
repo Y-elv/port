@@ -466,7 +466,33 @@ margin-top: 90px;
 .last-end{
     display: flex;
 }
+.about-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.about-img img{
+    height: 300px;
+    width: 240px;
+    padding-bottom: 15px;
 
+}
+.about-img button{
+    color:black;
+    border-color: #ff4d05;
+    width: 200px;
+    margin-left: 10px;
+    background-color: #ff4d05;
+    padding: 10px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.about-img button:hover{
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
 
 @media (max-width:1480px) {
     header{
