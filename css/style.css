@@ -14,7 +14,7 @@ p{
 color:var(--blue);
 }
 body{
-    background: #2a2a2a;
+    background: #222222;
     color: #fff;
 }
 header{
@@ -23,19 +23,20 @@ header{
     top:0;
     right:0;
     z-index: 1000;
-   
+    
     align-items: center;
     justify-content: space-between;
     display: flex;
     background: transparent;
     padding: 22px 15%;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid white;
     transition: all .45s ease;
 }
 .logo{
-    color:#ffb81e;
+    color: #eba317;
     font-size: 35px;
     font-weight: 700;
+    
     letter-spacing: 1px;
 
 }
@@ -52,16 +53,16 @@ header{
 
 
 .navlist a:hover{
-    color:#ffb81e;
+    color:#eba317;
     
 }
 .button h4:hover{
     transform: translate3d(3px,2px,3px);
-color:#ffb81e ;
+color:#eba317 ;
 }
 
 .navlist .a:active{
-    color:#ffb81e;
+    color:#eba317;
     
 }
 #menu-icon{
@@ -73,7 +74,7 @@ color:#ffb81e ;
     display: none;
     }
 .home-text span{
-    color:#ffb81e ;
+    color:#eba317 ;
 }
 .slide span{
     color:rgba(231, 8, 8, 0.582);
@@ -91,6 +92,7 @@ section{
     align-items: center;
     justify-content: space-between;
     background-image: url(../image/background.jpeg);
+    filter: brightness(80%);
 }
 .slide{
     margin-bottom: 20px;
@@ -144,7 +146,7 @@ padding: 0 5px;
 .btn{
     display: inline-block;
     padding: 12px 28px;
-    background:#ff4d05;
+    background:#eba317;
      border-radius: 5px;
      color: #fff;
      font-size: 1rem;
@@ -171,7 +173,7 @@ padding: 0 5px;
 .btn2 span i{
 height: 55px;
 width: 55px;
-background: #ff4d05;
+background: #eba317;
 color: #fff;
 display: flex;
 align-items: center;
@@ -204,7 +206,7 @@ header.sticky{
     padding-bottom: 20px;
 }
 .about-text h2 span{
-    color: #ff4d05;
+    color:#eba317;
 }
 .about-text h4{
     padding-bottom: 20px;
@@ -215,7 +217,7 @@ header.sticky{
     font-weight: 300;
 }
 .main-text span{
-    color: #ff4d05;
+    color:#eba317;
 }
 .main-text{
     text-align:center ;
@@ -329,7 +331,7 @@ header.sticky{
     line-height: 1.8;
 }
 .layer i{
-    color:#ff4d05;
+    color:#eba317;
     margin-top: 0px;
     font-size: 20px;
     background: #fff;
@@ -353,7 +355,7 @@ header.sticky{
     height: 100%;
 }
 .Contact-text span{
-    color: #ff4d05;
+    color:#eba317;
 }
 .Contact{
     background: #202020;
@@ -399,7 +401,7 @@ header.sticky{
 }
 .contact-icons i{
     background: #ccc;
-    color: #ff4d05;
+    color:#eba317;
     height: 55px;
     width: 55px;
     align-items: center;
@@ -419,16 +421,21 @@ header.sticky{
 .contact-form form input,form textarea{
    width: 100%;
    padding: 14px; 
-   background:#2a2a2a;
-   color: #ccc;
+   background:#535252;
+   color: #fff;
    border: none;
    outline: none;
    font-size: 15px;
    border-radius: 8px;
    margin-bottom: 10px;
 }
+.blog{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
 .submit:hover{
-    background: #ff4d05;
+    background: #eba317;
 }
 .contact-form{
 margin-top: 90px;
@@ -459,7 +466,7 @@ margin-top: 90px;
     border-radius: 8px;
     font-size: 15px;
     color: #fff;
-    background: #ff4d05;
+    background:#eba317;
 }
 
 
@@ -479,10 +486,10 @@ margin-top: 90px;
 }
 .about-img button{
     color:black;
-    border-color: #ff4d05;
+    border-color: #eba317;
     width: 200px;
     margin-left: 10px;
-    background-color: #ff4d05;
+    background-color:#eba317;
     padding: 10px;
     border-radius: 12px;
     align-items: center;
