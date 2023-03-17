@@ -501,6 +501,18 @@ margin-top: 90px;
     border-color: black;
 }
 
+.btn1{
+    background-color: #eba317;
+    color: #fff;
+    width: 250px;
+    margin-left: 10px;
+    transition: all .45s ease;
+    padding: 10px;
+    border-radius: 12px;
+}
+.btn1:hover{
+    transform: scale(0.4); 
+}
 @media (max-width:1480px) {
     header{
         padding: 12px 2.5%;
