@@ -13,3 +13,11 @@ console.log('hello');
  links.forEach(link=>{
     link.addEventListener('click',changer);
  });
+
+
+var button =document.getElementById("mybutton");
+var video=document.getElementById("myvideo");
+button.addEventListener("click",function(){
+    video.style.display="block";
+
+});
