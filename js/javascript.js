@@ -4,7 +4,7 @@ window.addEventListener("scroll",function(){
 });
 
 function hiddenColor(){
-    document.getElementById("changer3").style.color='#ffb81e';
+    document.getElementById("changer3").style.color='';
 }
 function changer(){
 console.log('hello');
