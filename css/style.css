@@ -92,7 +92,7 @@ section{
     align-items: center;
     justify-content: space-between;
     background-image: url(../image/background.jpeg);
-    filter: brightness(80%);
+    filter: brightness(60%);
 }
 .slide{
     margin-bottom: 20px;
