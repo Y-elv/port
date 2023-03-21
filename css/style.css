@@ -305,7 +305,7 @@ header.sticky{
 .layer{
     width: 100%;
     height:0%;
-    background: linear-gradient(rgba(0,0,0,0.1),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.1),#eba317);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -353,6 +353,9 @@ header.sticky{
 }
 .row:hover .layer{
     height: 100%;
+}
+.row p{
+    text-align: center;
 }
 .Contact-text span{
     color:#eba317;
