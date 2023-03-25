@@ -2,19 +2,17 @@ const header=document.querySelector("header");
 window.addEventListener("scroll",function(){
     header.classList.toggle("sticky",window.scrollY >10);
 });
-console.log("hello elvis")
 
 
-document.querySelector("#btnn").style.dispaly="none"
-let btn=document.getElementById("btnn")
-let x=document.getElementsByClassName("tog")
 
-btn.addEventListener('click',()=>{
-    if(x.style.dispaly==='none'){
-        x.style.dispaly='block';
-    }
-    else{
-        x.style.dispaly='none';
-    }
 
-})
+console.log("hello")
+function show(){
+    document.getElementById("hidden-menu").style.display="block";
+    document.getElementById("menu-icon").style.display="none";
+}
+function hiden(){
+    console.log("hello")
+    document.getElementById("hidden-menu").style.display="none";
+    document.getElementById("menu-icon").style.display="block";
+}
