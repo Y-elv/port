@@ -234,7 +234,7 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    width: 100%;
 
 }
 .about-img{
@@ -575,16 +575,39 @@ display: none;
 
 
 }
-
-@media screen and  (max-width:930px) {
+@media screen and  (min-width:1001px) {
    
     #menu-icon{
-  display: block;}
-  .navlist{
-display: none;
-  }
+  display: none;}
 
 
+
+}
+
+
+
+
+@media screen and  (max-width:756px) {
+   
+
+    .about-text p{
+        font-size: small;
+        line-height: 0.1;
+        font-weight: 100;
+    }
+
+}
+
+@media screen and  (max-width:679px) {
+   
+    .top i{
+        
+       
+    
+        
+        
+    }
+    
 }
 
 
